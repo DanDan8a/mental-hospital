@@ -1,0 +1,32 @@
+# Visual Studio / Rider
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Compilación .NET
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.cache
+
+# Salidas de compilación y empaquetado del mod
+# El asset bundle del dungeon y el DLL del plugin se generan aparte
+# y no deben versionarse en este repositorio.
+BepInEx/plugins/
+
+# Paquetes y releases
+*.nupkg
+*.zip
+*.7z
+*.rar
+releases/
+
+# Logs y temporales
+*.log
+BepInEx/LogOutput.log
+Thumbs.db
+.DS_Store
+desktop.ini
