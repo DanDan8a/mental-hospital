@@ -12,10 +12,12 @@
 *.pdb
 *.cache
 
-# Salidas de compilación y empaquetado del mod
-# El asset bundle del dungeon y el DLL del plugin se generan aparte
-# y no deben versionarse en este repositorio.
-BepInEx/plugins/
+# Proyecto .NET: solo se versiona el código fuente del plugin
+MentalHospital/*
+!MentalHospital/Plugin.cs
+
+# Salidas de compilación del mod: se versiona el asset bundle, no el DLL
+BepInEx/plugins/**/*.dll
 
 # Paquetes y releases
 *.nupkg
